@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# GPUProfiler data files
+*.gpd
+*.GPD
+*.csv
+*.CSV
+
+# Logs
+*.log
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+
+# PDFs
+*.pdf
+
+# Reports (generated output)
+*_report.md
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test/sample data directories
+samples/
+lee/
