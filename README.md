@@ -1,4 +1,4 @@
-# NVIDIA vGPU Sizer
+# vGPU Sizer
 
 A [Claude Code](https://claude.ai/claude-code) skill that analyzes NVIDIA GPUProfiler output to generate vGPU sizing recommendations.
 
