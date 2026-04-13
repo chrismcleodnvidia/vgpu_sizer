@@ -1,6 +1,8 @@
-# NVIDIA vGPU Sizer
+# vGPU Sizer
 
-A [Claude Code](https://claude.ai/claude-code) skill that analyzes NVIDIA GPUProfiler output to generate vGPU sizing recommendations.
+> **Disclaimer:** This is an **unofficial** community tool, not an official NVIDIA product. It is not developed, maintained, or endorsed by NVIDIA. Sizing recommendations are best-effort guidance and should be validated against your specific environment. Use at your own risk.
+
+A [Claude Code](https://claude.ai/claude-code) skill that analyzes [NVIDIA GPUProfiler](https://developer.nvidia.com/gpu-profiler) output to generate vGPU sizing recommendations.
 
 ## What It Does
 
@@ -98,6 +100,6 @@ Run any script with `--help` for full option details.
 | `screenshot_config.py` | GPUProfiler GUI automation - extracts system config from GPD files via pywinauto |
 | `.claude/skills/vgpu-sizer/skill.md` | Claude Code skill definition |
 
-## License
+## Disclaimer
 
-Internal NVIDIA tool. Contact the maintainer before redistribution.
+This tool is an **unofficial** personal project. It is **not** an official NVIDIA product or service. NVIDIA does not endorse, support, or guarantee the accuracy of the recommendations produced by this tool. Always validate sizing recommendations through proper POC testing in your target environment.
