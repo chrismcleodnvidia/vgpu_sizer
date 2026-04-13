@@ -2,7 +2,7 @@
 
 > **Disclaimer:** This is an **unofficial** community tool, not an official NVIDIA product. It is not developed, maintained, or endorsed by NVIDIA. Sizing recommendations are best-effort guidance and should be validated against your specific environment. Use at your own risk.
 
-A [Claude Code](https://claude.ai/claude-code) skill that analyzes NVIDIA GPUProfiler output to generate vGPU sizing recommendations.
+A [Claude Code](https://claude.ai/claude-code) skill that analyzes [GPUProfiler](https://github.com/JeremyMain/GPUProfiler) output to generate vGPU sizing recommendations.
 
 ## What It Does
 
@@ -29,7 +29,7 @@ Knowledge Worker, Healthcare (EPIC), 2D/3D Design, Engineering (CAD), GIS, Energ
 
 - **Windows** (GPD file processing requires GPUProfiler GUI automation)
 - **Python 3.10+**
-- **NVIDIA GPUProfiler** installed (for `.gpd` file processing)
+- **[GPUProfiler](https://github.com/JeremyMain/GPUProfiler)** installed (for `.gpd` file processing)
 - **pywinauto** (`pip install pywinauto`) - required only for `.gpd` file processing; CSV-only analysis has no external dependencies
 - **Claude Code** CLI or desktop app
 
