@@ -2,7 +2,7 @@
 
 > **Disclaimer:** This is an **unofficial** community tool, not an official NVIDIA product. It is not developed, maintained, or endorsed by NVIDIA. Sizing recommendations are best-effort guidance and should be validated against your specific environment. Use at your own risk.
 
-A [Claude Code](https://claude.ai/claude-code) skill that analyzes [NVIDIA GPUProfiler](https://developer.nvidia.com/gpu-profiler) output to generate vGPU sizing recommendations.
+A [Claude Code](https://claude.ai/claude-code) skill that analyzes NVIDIA GPUProfiler output to generate vGPU sizing recommendations.
 
 ## What It Does
 
