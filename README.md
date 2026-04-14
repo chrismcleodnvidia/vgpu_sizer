@@ -35,10 +35,22 @@ Knowledge Worker, Healthcare (EPIC), 2D/3D Design, Engineering (CAD), GIS, Energ
 
 ## Installation
 
+### Quick Setup (Recommended)
+
+If you're using Claude Code, just point it at this repo and ask it to install:
+
+```
+Install the vgpu-sizer skill from https://github.com/chrismcleodnvidia/vgpu_sizer
+```
+
+Claude will clone the repo, copy the skill, update the paths, and install dependencies for you.
+
+### Manual Setup
+
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-org>/nvidia-vgpu-sizer.git
-   cd nvidia-vgpu-sizer
+   git clone https://github.com/chrismcleodnvidia/vgpu_sizer.git
+   cd vgpu_sizer
    ```
 
 2. Install the Claude Code skill by copying the skill definition to your Claude Code skills directory:
